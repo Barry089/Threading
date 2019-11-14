@@ -11,4 +11,4 @@ def test():
 thread1 = threading.Thread(target=test, daemon=False)
 thread1.start()
 
-print("主线程完了")
+print("主线程完成了")
