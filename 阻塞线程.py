@@ -12,4 +12,4 @@ thread1 = threading.Thread(target=test)
 thread1.start()
 thread1.join()
 
-print("主线程完成了")
+print("主线程完成了  阻塞线程")
